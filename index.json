@@ -1,109 +1,507 @@
 {
-    "menu": [
-        {
-            "kategori": "pizza",
-            "nama": "Meat Lover",
-            "deskripsi": "Irisan sosis sapi, daging sapi cincang, burger sapi, sosis ayam.",
-            "harga": 49500,
-            "gambar": "meat-lover.jpg"
+    "makanan": [{
+            "id": 1,
+            "nama": "kentang",
+            "hipertensi": "r",
+            "diabetes": "r",
+            "asamurat": "l",
+            "maag": "l",
+            "asma": "n"
         },
         {
-            "kategori": "pizza",
-            "nama": "Super Supreme",
-            "deskripsi": "Daging ayam dan sapi asap, daging sapi cincang, burger sapi, jamur, paprika merah dan paprika hijau.",
-            "harga": 49500,
-            "gambar": "supreme.jpg"
+            "id": 2,
+            "nama": "ikan",
+            "hipertensi": "r",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "pizza",
-            "nama": "Tuna Melt",
-            "deskripsi": "Irisan daging ikan tuna, butiran jagung, saus mayonnaise.",
-            "harga": 49500,
-            "gambar": "tuna-melt.jpg"
+            "id": 3,
+            "nama": "pisang",
+            "hipertensi": "r",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "r",
+            "asma": "r"
         },
         {
-            "kategori": "pizza",
-            "nama": "American Favourite",
-            "deskripsi": "Pepperoni sapi, daging sapi cincang, jamur.",
-            "harga": 49500,
-            "gambar": "american-favourite.jpg"
+            "id": 4,
+            "nama": "alpukat",
+            "hipertensi": "r",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "pasta",
-            "nama": "Beef Spaghetti",
-            "deskripsi": "Pepperoni sapi, daging sapi cincang, jamur.",
-            "harga": 43000,
-            "gambar": "beef-spaghetti.jpg"
+            "id": 5,
+            "nama": "ikan",
+            "hipertensi": "r",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "pasta",
-            "nama": "Beef Lasagna",
-            "deskripsi": "Dipanggang, daging sapi cincang. krim putih lembut di tiap lapisan.",
-            "harga": 48000,
-            "gambar": "beef-lasagna.jpg"
+            "id": 6,
+            "nama": "gandum utuh",
+            "hipertensi": "r",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "l"
         },
         {
-            "kategori": "pasta",
-            "nama": "Creamy Beef Fettuccine",
-            "deskripsi": "Daging sapi asap dan jamur, ditumis dengan saus krim lembut.",
-            "harga": 43000,
-            "gambar": "creamy-beef-fettuccine.jpg"
+            "id": 7,
+            "nama": "tomat",
+            "hipertensi": "r",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "nasi",
-            "nama": "Meatballs Beef Mushroom",
-            "deskripsi": "Bola daging sapi dengan saus daging sapi cincang dan jamur.",
-            "harga": 40000,
-            "gambar": "meatballs-beef-mushroom.jpg"
+            "id": 8,
+            "nama": "jeruk",
+            "hipertensi": "r",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "nasi",
-            "nama": "Black Pepper Chicken",
-            "deskripsi": "Ayam dengan saus lada hitam.",
-            "harga": 40000,
-            "gambar": "black-pepper-chicken.jpg"
+            "id": 9,
+            "nama": "semangka",
+            "hipertensi": "r",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "nasi",
-            "nama": "Oriental Chicken",
-            "deskripsi": "Daging ayam berpadu dengan saus oriental.",
-            "harga": 40000,
-            "gambar": "oriental-chicken.jpg"
+            "id": 10,
+            "nama": "gula",
+            "hipertensi": "l",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "minuman",
-            "nama": "Choco Mint",
-            "deskripsi": "",
-            "harga": 24000,
-            "gambar": "choco-mint.jpg"
+            "id": 11,
+            "nama": "mie instan",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "minuman",
-            "nama": "Toffee Coffee",
-            "deskripsi": "",
-            "harga": 24000,
-            "gambar": "toffee-coffee.jpg"
+            "id": 12,
+            "nama": "garam",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "minuman",
-            "nama": "Green Tea Shake",
-            "deskripsi": "",
-            "harga": 24000,
-            "gambar": "green-tea-shake.jpg"
+            "id": 13,
+            "nama": "gorengan",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "l"
         },
         {
-            "kategori": "minuman",
-            "nama": "Strawberry Milkshake",
-            "deskripsi": "",
-            "harga": 24000,
-            "gambar": "strawberry-milkshake.jpg"
+            "id": 14,
+            "nama": "sosis",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
         },
         {
-            "kategori": "minuman",
-            "nama": "Chocolate Milkshake",
-            "deskripsi": "",
-            "harga": 24000,
-            "gambar": "chocolate-milkshake.jpg"
+            "id": 15,
+            "nama": "daging merah",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "l",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 16,
+            "nama": "roti",
+            "hipertensi": "l",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 17,
+            "nama": "saus tomat",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 18,
+            "nama": "acar",
+            "hipertensi": "l",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 19,
+            "nama": "jagung",
+            "hipertensi": "n",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 20,
+            "nama": "ubi jalar",
+            "hipertensi": "n",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 21,
+            "nama": "beras merah",
+            "hipertensi": "n",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 22,
+            "nama": "sayuran hijau",
+            "hipertensi": "r",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "r",
+            "asma": "n"
+        },
+        {
+            "id": 23,
+            "nama": "kacang-kacangan",
+            "hipertensi": "n",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 24,
+            "nama": "kayu manis",
+            "hipertensi": "n",
+            "diabetes": "r",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 25,
+            "nama": "kerupuk",
+            "hipertensi": "n",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 26,
+            "nama": "daging berlemak",
+            "hipertensi": "n",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 27,
+            "nama": "mentega",
+            "hipertensi": "n",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 28,
+            "nama": "keju",
+            "hipertensi": "n",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 29,
+            "nama": "susu",
+            "hipertensi": "n",
+            "diabetes": "l",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 30,
+            "nama": "manisan buah kering",
+            "hipertensi": "n",
+            "diabetes": "l",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 31,
+            "nama": "buah ceri",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 32,
+            "nama": "lemon",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 33,
+            "nama": "kacang polong",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "l"
+        },
+        {
+            "id": 34,
+            "nama": "buncis",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 35,
+            "nama": "brokoli",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 36,
+            "nama": "wortel",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "r",
+            "maag": "n",
+            "asma": "r"
+        },
+        {
+            "id": 37,
+            "nama": "kerang",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "l",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 38,
+            "nama": "udang",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "l",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 39,
+            "nama": "teri",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "l",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 40,
+            "nama": "jeroan",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "l",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 41,
+            "nama": "daging olahan",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "l",
+            "maag": "n",
+            "asma": "n"
+        },
+        {
+            "id": 42,
+            "nama": "oatmeal",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "r",
+            "asma": "n"
+        },
+        {
+            "id": 43,
+            "nama": "melon",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "r",
+            "asma": "n"
+        },
+        {
+            "id": 44,
+            "nama": "yogurt",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "r",
+            "asma": "n"
+        },
+        {
+            "id": 45,
+            "nama": "pepaya",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "r",
+            "asma": "n"
+        },
+        {
+            "id": 46,
+            "nama": "makanan pedas",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "l",
+            "asma": "n"
+        },
+        {
+            "id": 47,
+            "nama": "makanan tinggi lemak",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "l",
+            "asma": "n"
+        },
+        {
+            "id": 48,
+            "nama": "makanan asam",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "l",
+            "asma": "n"
+        },
+        {
+            "id": 49,
+            "nama": "Asam lemak omega-3",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "r"
+        },
+        {
+            "id": 50,
+            "nama": "apel",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "r"
+        },
+        {
+            "id": 51,
+            "nama": "bayam",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "r"
+        },
+        {
+            "id": 52,
+            "nama": "jahe",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "r"
+        },
+        {
+            "id": 53,
+            "nama": "permen karet",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "l"
+        },
+        {
+            "id": 54,
+            "nama": "bawang putih",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "l"
+        },
+        {
+            "id": 55,
+            "nama": "makanan cepat saji",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "l"
+        },
+        {
+            "id": 56,
+            "nama": "telur",
+            "hipertensi": "n",
+            "diabetes": "n",
+            "asamurat": "n",
+            "maag": "n",
+            "asma": "l"
         }
     ]
 }
