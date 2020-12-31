@@ -1,507 +1,770 @@
 {
-    "makanan": [{
+    "penyakit": [{
             "id": 1,
-            "nama": "kentang",
-            "hipertensi": "r",
-            "diabetes": "r",
-            "asamurat": "l",
-            "maag": "l",
-            "asma": "n"
+            "penyakit": "hipertensi",
+            "isi": "Hipertensi terjadi ketika tekanan sistolik berada di atas 130 mmHg dan tekanan diastolik lebih dari 80 mmHg. Tekanan darah yang melebihi angka tersebut merupakan kondisi berbahaya dan harus segera ditangani."
         },
         {
             "id": 2,
-            "nama": "ikan",
-            "hipertensi": "r",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "penyakit": "diabetes",
+            "isi": "Diabetes merupakan penyakit kronis yang ditandai dengan ciri-ciri berupa tingginya kadar gula (glukosa) darah."
         },
         {
             "id": 3,
-            "nama": "pisang",
-            "hipertensi": "r",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "r",
-            "asma": "r"
+            "penyakit": "asamUrat",
+            "isi": "Asam urat merupakan kondisi yang bisa menyebabkan gejala nyeri yang tak tertahankan, pembengkakan, serta adanya rasa panas di aerea persendian."
         },
         {
             "id": 4,
-            "nama": "alpukat",
-            "hipertensi": "r",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "penyakit": "maag",
+            "isi": "Sakit maag disebabkan oleh luka terbuka yang terjadi di lapisan dalam lambung (tukak lambung), infeksi bakteri Helicobacter pylori, efek samping konsumsi obat anti inflamasi nonsteroid (OAINS) dan stres."
         },
         {
             "id": 5,
-            "nama": "ikan",
-            "hipertensi": "r",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "penyakit": "asma",
+            "isi": "Asma adalah jenis penyakit jangka panjang atau kronis pada saluran pernapasan yang ditandai dengan peradangan dan penyempitan saluran napas yang menimbulkan sesak atau sulit bernapas."
+        }
+
+
+    ],
+    "makanan": [{
+            "id": 1,
+            "nama": "Sayuran hijau",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 2,
+            "nama": "Sayuran hijau",
+            "penyakit": "maag",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 3,
+            "nama": "yogurt",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 4,
+            "nama": "yogurt",
+            "penyakit": "maag",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 5,
+            "nama": "Oatmeal",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 6,
-            "nama": "gandum utuh",
-            "hipertensi": "r",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Oatmeal",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 7,
-            "nama": "tomat",
-            "hipertensi": "r",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Oatmeal",
+            "penyakit": "maag",
+            "status": "rekomendasi"
         },
         {
             "id": 8,
-            "nama": "jeruk",
-            "hipertensi": "r",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Ikan",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 9,
-            "nama": "semangka",
-            "hipertensi": "r",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Minyak ikan",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 10,
-            "nama": "gula",
-            "hipertensi": "l",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Kacang lima",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 11,
-            "nama": "mie instan",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Gandum utuh",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 12,
-            "nama": "garam",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Gandum utuh",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 13,
-            "nama": "gorengan",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Gandum utuh",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 14,
-            "nama": "sosis",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Kacang pistachio",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 15,
-            "nama": "daging merah",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "l",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Pisang",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 16,
-            "nama": "roti",
-            "hipertensi": "l",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Pisang",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 17,
-            "nama": "saus tomat",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Pisang",
+            "penyakit": "maag",
+            "status": "rekomendasi"
         },
         {
             "id": 18,
-            "nama": "acar",
-            "hipertensi": "l",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Pisang",
+            "penyakit": "asma",
+            "status": "rekomendasi"
         },
         {
             "id": 19,
-            "nama": "jagung",
-            "hipertensi": "n",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Buah berry",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 20,
-            "nama": "ubi jalar",
-            "hipertensi": "n",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Alpukat",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 21,
-            "nama": "beras merah",
-            "hipertensi": "n",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Alpukat",
+            "penyakit": "asma",
+            "status": "rekomendasi"
         },
         {
             "id": 22,
-            "nama": "sayuran hijau",
-            "hipertensi": "r",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "r",
-            "asma": "n"
+            "nama": "Tomat",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 23,
-            "nama": "kacang-kacangan",
-            "hipertensi": "n",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Tomat",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 24,
-            "nama": "kayu manis",
-            "hipertensi": "n",
-            "diabetes": "r",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Tomat",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 25,
-            "nama": "kerupuk",
-            "hipertensi": "n",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Jeruk",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 26,
-            "nama": "daging berlemak",
-            "hipertensi": "n",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Semangka",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 27,
-            "nama": "mentega",
-            "hipertensi": "n",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Nanas",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 28,
-            "nama": "keju",
-            "hipertensi": "n",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Melon",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
         },
         {
             "id": 29,
-            "nama": "susu",
-            "hipertensi": "n",
-            "diabetes": "l",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Melon",
+            "penyakit": "maag",
+            "status": "rekomendasi"
         },
         {
             "id": 30,
-            "nama": "manisan buah kering",
-            "hipertensi": "n",
-            "diabetes": "l",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Bayam",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 31,
-            "nama": "buah ceri",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Bayam",
+            "penyakit": "asma",
+            "status": "rekomendasi"
         },
         {
             "id": 32,
-            "nama": "lemon",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Ikan Laut",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 33,
-            "nama": "kacang polong",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Daging tanpa lemak",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 34,
-            "nama": "buncis",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Brokoli",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 35,
-            "nama": "brokoli",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Brokoli",
+            "penyakit": "asma",
+            "status": "rekomendasi"
         },
         {
             "id": 36,
-            "nama": "wortel",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "r",
-            "maag": "n",
-            "asma": "r"
+            "nama": "Yogurt probiotik",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 37,
-            "nama": "kerang",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "l",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Ubi jalar",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 38,
-            "nama": "udang",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "l",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Jagung",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 39,
-            "nama": "teri",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "l",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Kacang-kacangan",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 40,
-            "nama": "jeroan",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "l",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Nasi merah",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 41,
-            "nama": "daging olahan",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "l",
-            "maag": "n",
-            "asma": "n"
+            "nama": "Buah beri",
+            "penyakit": "diabetes",
+            "status": "rekomendasi"
         },
         {
             "id": 42,
-            "nama": "oatmeal",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "r",
-            "asma": "n"
+            "nama": "Buah beri",
+            "penyakit": "asma",
+            "status": "rekomendasi"
         },
         {
             "id": 43,
-            "nama": "melon",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "r",
-            "asma": "n"
+            "nama": "Roti",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 44,
-            "nama": "yogurt",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "r",
-            "asma": "n"
+            "nama": "Biji rami ",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 45,
-            "nama": "pepaya",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "r",
-            "asma": "n"
+            "nama": "Lemon",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 46,
-            "nama": "makanan pedas",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "l",
-            "asma": "n"
+            "nama": "Wortel",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 47,
-            "nama": "makanan tinggi lemak",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "l",
-            "asma": "n"
+            "nama": "Wortel",
+            "penyakit": "asma",
+            "status": "rekomendasi"
         },
         {
             "id": 48,
-            "nama": "makanan asam",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "l",
-            "asma": "n"
+            "nama": "Buncis",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 49,
-            "nama": "Asam lemak omega-3",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "r"
+            "nama": "Kacang polong",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 50,
-            "nama": "apel",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "r"
+            "nama": "Buah ceri",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 51,
-            "nama": "bayam",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "r"
+            "nama": "Telur",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 52,
-            "nama": "jahe",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "r"
+            "nama": "Telur",
+            "penyakit": "maag",
+            "status": "rekomendasi"
         },
         {
             "id": 53,
-            "nama": "permen karet",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Buah Kersen",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 54,
-            "nama": "bawang putih",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Lentil",
+            "penyakit": "asamUrat",
+            "status": "rekomendasi"
         },
         {
             "id": 55,
-            "nama": "makanan cepat saji",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Jahe",
+            "penyakit": "maag",
+            "status": "rekomendasi"
         },
         {
             "id": 56,
-            "nama": "telur",
-            "hipertensi": "n",
-            "diabetes": "n",
-            "asamurat": "n",
-            "maag": "n",
-            "asma": "l"
+            "nama": "Jahe",
+            "penyakit": "asma",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 57,
+            "nama": "Lidah Buaya",
+            "penyakit": "maag",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 58,
+            "nama": "Daging",
+            "penyakit": "maag",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 59,
+            "nama": "Pepaya",
+            "penyakit": "maag",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 60,
+            "nama": "Apel",
+            "penyakit": "maag",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 61,
+            "nama": "Apel",
+            "penyakit": "asma",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 62,
+            "nama": "Ubi ",
+            "penyakit": "asma",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 63,
+            "nama": "Kale",
+            "penyakit": "asma",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 64,
+            "nama": "Kunyit",
+            "penyakit": "asma",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 65,
+            "nama": "Kentang",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 66,
+            "nama": "Cokelat hitam",
+            "penyakit": "hipertensi",
+            "status": "rekomendasi"
+        },
+        {
+            "id": 67,
+            "nama": "Gula",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 68,
+            "nama": "Gula",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 69,
+            "nama": "Garam",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 70,
+            "nama": "Gorengan",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 71,
+            "nama": "Susu",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 72,
+            "nama": "Acar",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 73,
+            "nama": "Acar",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 74,
+            "nama": "Saus Tomat",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 75,
+            "nama": "Saus Tomat",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 76,
+            "nama": "Kafein",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 77,
+            "nama": "Kulit Ayam",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 78,
+            "nama": "Mie Instan",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 79,
+            "nama": "Sosis",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 80,
+            "nama": "Roti",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 81,
+            "nama": "Daging Merah",
+            "penyakit": "hipertensi",
+            "status": "larangan"
+        },
+        {
+            "id": 82,
+            "nama": "Nasi putih",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 83,
+            "nama": "Yogurt rasa buah",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 84,
+            "nama": "Madu",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 85,
+            "nama": "Buah kering",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 86,
+            "nama": "Jus Buah",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 87,
+            "nama": "Kentang goreng",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 88,
+            "nama": "Saus salad",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 89,
+            "nama": "Kerupuk",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 90,
+            "nama": "Daging berlemak",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 91,
+            "nama": "Mentega",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 92,
+            "nama": "Keju",
+            "penyakit": "diabetes",
+            "status": "larangan"
+        },
+        {
+            "id": 93,
+            "nama": "Telur ikan ",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 94,
+            "nama": "Lobster",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 95,
+            "nama": "Kepiting",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 96,
+            "nama": "Kerang",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 97,
+            "nama": "Remis",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 98,
+            "nama": "Kaldu daging",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 99,
+            "nama": "Anggur",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 100,
+            "nama": "Anggur",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 101,
+            "nama": "Tape ketan",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 102,
+            "nama": "Bebek",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 103,
+            "nama": "Ikan Sarden",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 104,
+            "nama": "Alpukat",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 105,
+            "nama": "Jeroan",
+            "penyakit": "asamUrat",
+            "status": "larangan"
+        },
+        {
+            "id": 106,
+            "nama": "Cokelat",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 107,
+            "nama": "Kopi",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 108,
+            "nama": "Soda",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 109,
+            "nama": "Alkohol",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 110,
+            "nama": "Buah citrus",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 111,
+            "nama": "Tomat",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 112,
+            "nama": "Bawang",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 113,
+            "nama": "Makanan pedas",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 114,
+            "nama": "makanan tinggi lemak",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 115,
+            "nama": "makanan asam",
+            "penyakit": "maag",
+            "status": "larangan"
+        },
+        {
+            "id": 116,
+            "nama": "Kacang",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 117,
+            "nama": "Kerang",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 118,
+            "nama": "Makanan instan",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 119,
+            "nama": "Udang",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 120,
+            "nama": "Acar",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 121,
+            "nama": "Gorengan",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 122,
+            "nama": "Bawang putih",
+            "penyakit": "asma",
+            "status": "larangan"
+        },
+        {
+            "id": 123,
+            "nama": "Gandum",
+            "penyakit": "asma",
+            "status": "larangan"
         }
+
     ]
 }
