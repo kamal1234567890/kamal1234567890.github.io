@@ -1,29 +1,35 @@
 {
     "penyakit": [{
             "id": 1,
-            "penyakit": "hipertensi",
+            "idNama": "hipertensi",
+            "nama": "Hipertensi",
             "isi": "Hipertensi terjadi ketika tekanan sistolik berada di atas 130 mmHg dan tekanan diastolik lebih dari 80 mmHg. Tekanan darah yang melebihi angka tersebut merupakan kondisi berbahaya dan harus segera ditangani."
         },
         {
             "id": 2,
-            "penyakit": "diabetes",
+            "idNama": "diabetes",
+            "nama": "Diabetes",
             "isi": "Diabetes merupakan penyakit kronis yang ditandai dengan ciri-ciri berupa tingginya kadar gula (glukosa) darah."
         },
         {
             "id": 3,
-            "penyakit": "asamUrat",
+            "idNama": "asamUrat",
+            "nama": "Asam Urat",
             "isi": "Asam urat merupakan kondisi yang bisa menyebabkan gejala nyeri yang tak tertahankan, pembengkakan, serta adanya rasa panas di aerea persendian."
         },
         {
             "id": 4,
-            "penyakit": "maag",
+            "idNama": "maag",
+            "nama": "Maag",
             "isi": "Sakit maag disebabkan oleh luka terbuka yang terjadi di lapisan dalam lambung (tukak lambung), infeksi bakteri Helicobacter pylori, efek samping konsumsi obat anti inflamasi nonsteroid (OAINS) dan stres."
         },
         {
             "id": 5,
-            "penyakit": "asma",
+            "idNama": "asma",
+            "nama": "Asma",
             "isi": "Asma adalah jenis penyakit jangka panjang atau kronis pada saluran pernapasan yang ditandai dengan peradangan dan penyempitan saluran napas yang menimbulkan sesak atau sulit bernapas."
         }
+
 
 
     ],
